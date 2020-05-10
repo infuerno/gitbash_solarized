@@ -43,7 +43,8 @@ host_name='[1;31m'
 branchcolor='[0;36m'
 user_color
 PROMPT_COMMAND='settitle; git_branch; get_hostname; history -a;'
-PS1='\n\[\e${cwdcolor}\][${PWD}]\[\e${branchcolor}\]${gitbranch}\n\[\e${usercolor}\][\u]\[\e${host_name}\][${SHORTNAME}]\[\e${inputcolor}\] $ '
+#PS1='\n\[\e${cwdcolor}\][${PWD}]\[\e${branchcolor}\]${gitbranch}\n\[\e${usercolor}\][\u]\[\e${host_name}\][${SHORTNAME}]\[\e${inputcolor}\] $ '
+PS1='\n\[\e${cwdcolor}\][${PWD}]\[\e${branchcolor}\]${gitbranch}\[\e${inputcolor}\]\n$ '
 export PS1
 
 # Aliases
